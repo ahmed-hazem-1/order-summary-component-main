@@ -13,6 +13,7 @@ body{
 .main{
     width: 30%;
     max-width: 430px;
+    min-width: 400px;
     height:auto;
     max-height: 670px;
     margin: 10% auto;
@@ -134,13 +135,13 @@ p{
     
     }
 .attribution a { color: hsl(228, 45%, 44%); }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
   
     .main{
         width: 80%;
         max-width: 400px;
-        min-width: 330px;
-        margin-top: 40%;
+        min-width: 300px;
+        /* margin-top: 40%; */
     }
     .main .pic{
         height: 40%;
